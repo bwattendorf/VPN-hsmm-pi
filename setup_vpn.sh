@@ -16,7 +16,7 @@ then
     if [ "$ANSWER" != "y" ];
     then
         clear  
-        echo "Please e-mail robert (at) kneedrag (dot) org for your info"
+        echo "Please e-mail bwattendorf (at) gmail (dot) com for your info"
         exit 0
     fi
 fi
@@ -25,8 +25,12 @@ clear
 echo "Starting install of VPN packages"
 echo
 echo
+
+
 sudo apt-get update
-sudo apt-get upgrade
+
+#Turned off upgrade because this will only run on hsmm-pi using Raspbian 2013-09-20
+#sudo apt-get upgrade
 sudo apt-get install vtun
 echo 
 echo "VPN software has now been installed, next to configure"
@@ -66,7 +70,7 @@ then
 fi
 
 clear
-echo "Please let ZL1FLY know that this script has now run to confirm your VPN status"
+echo "Please let W1BAW know that this script has now run to confirm your VPN status"
 
 echo "Rebooting to finalize VPN device."
 
