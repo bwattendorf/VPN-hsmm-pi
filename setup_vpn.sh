@@ -54,7 +54,7 @@ sudo /etc/init.d/vtun restart
 
 
 echo "Adding remote support user"
-echo "Do you want to add login support for ZL1FLY (Y/N)"
+echo "Do you want to add login support for W1BAW (Y/N)"
 read ANSWER
 
 
