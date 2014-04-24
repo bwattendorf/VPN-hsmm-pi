@@ -9,6 +9,9 @@ I am currently only working on the client side scripts at present. Once I am hap
 
 HSMM-PI will need to be installed first. 
 
+if you want to resize the image run sudo perl ./resizeimage.pl
+and then after burning run   sudo raspi-config first thing to expand the the file system back
+
 
 If you have any questions please feel free to ask away.
 
